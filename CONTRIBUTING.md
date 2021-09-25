@@ -50,7 +50,7 @@ Here are the simple steps for contributing to this repo
       
       - After finishing with the coding part, take snapshots of your creations or make a GIF if you have made any kind of animation✨✨. 
       
-        Add the snapshot/GIF under the **Art-Work** section in the [README.md](https://github.com/clubgamma/Awesome-Flutter-Art/blob/master/README.md) in the same manner displayed in below image.
+        Add the snapshot of webpage in the **DESCRIPTION** section  in the same manner displayed in below image at the time of creating **Commit**.
         
         ![image](https://user-images.githubusercontent.com/58077762/94146033-ffe27b80-fe90-11ea-9d44-420964625940.png)
 
