@@ -9,7 +9,6 @@ Read the [Code of Conduct](https://github.com/clubgamma/code-of-conduct) before 
 4. Proper commenting must be done of each line, function or any component to be made.
 5. Naming of any component, variable or function must be done properly .
 
-
 ### Getting Started
 
 1.  If you are new to Git and GitHub, it is advisable that you go through
