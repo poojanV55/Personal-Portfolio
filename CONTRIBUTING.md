@@ -1,89 +1,97 @@
-# Wanna contribute 🤝??
+**READ CODE OF CONDUCT**
+Read the [Code of Conduct](https://github.com/clubgamma/code-of-conduct) before starting contributing.
 
-Here are the simple steps for contributing to this repo
+#### Coding conventions to be followed-
 
-  - **READ CODE OF CONDUCT**
-     
-     Read the [Code of Conduct](https://github.com/clubgamma/code-of-conduct) before starting contributing.
+1. Everything to be added for the html part must present in index.html file.
+2. CSS must added in style.css file.
+3. JS must be added in the Script.js file.
+4. Proper commenting must be done of each line, function or any component to be made.
+5. Naming of any component, variable or function must be done properly .
 
-  - **Fork the repo**
-    
-    First of all fork the repo to your own GitHub account by clicking the **Fork** button on top-right corner. Still could not find 🙄,check the below image
+
+### Getting Started
+
+1.  If you are new to Git and GitHub, it is advisable that you go through
+    [GitHub For Beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
+    **before** moving to ahead.
+2.  Pick any issue you want to work on from the [issues](https://github.com/clubgamma/spotify-web-clone/issues), discuss with maintainer on issue and then start.
+
+3.  Fork the project on GitHub.
+    [Help Guide to Fork a Repository](https://help.github.com/en/articles/fork-a-repo/).
     ![fork](https://user-images.githubusercontent.com/58077762/93772626-ac77ef80-fc3c-11ea-8ee6-e381e1d68280.png)
     After a sucessful fork, you'll see a copy of this repo in your own account.
 
-  - **Clone the repo**
-    
-    Now it's time to copy this repo to own laptop/PC. 
-    To clone the repo you can write the below command in **Git Bash**
-    
-    > git clone <REPO_LINK_FROM_YOUR_ACCOUNT>
-    
-    You can get the repo link from the Download section in the **repo copied in your own account**. Still having trouble🙄,see the below image
-    
-    ![clone](https://user-images.githubusercontent.com/58077762/93773696-fad9be00-fc3d-11ea-8981-5f6b31cefee1.png)
-    
-  - **Set up remote repo**
-    
-      - When you cloned your fork, that should have automatically set your fork as the "origin" remote. Use git remote -v to show your current remotes. You should see the URL of your fork (which you copied in step 3) next to the word "origin". 
-        If you don't see an "origin" remote, you can add it using below git command
-    
-        > git remote add origin <REPO_LINK_FROM_YOUR_ACCOUNT>
-      
-      - Now you have to setup **upstream**. For that write the below git command
-      
-        > git remote add upstream https://github.com/clubgamma/Awesome-Web-Art
-        
-      - Now pull the latest changes from original repo to your local changes by firing thee below command
-        
-        > git pull upstream master
-            
-  - **It's Code Time now**
-    
-      - First of all, make a folder with named as your GitHub username and this is compulsory.
-      
-      ![namefolder](https://user-images.githubusercontent.com/58077762/93989586-b5d19b00-fda7-11ea-988b-d0d456dcff4d.png)
-      
-      - After that start writing code inside that folder only and you know what you have to code😉. Create anything you want using HTML,CSS,JavaScript!!
-      
-      ![image](https://user-images.githubusercontent.com/58077762/94143077-f0613380-fe8c-11ea-9324-ab45527ba5da.png)
-      
-      - After finishing with the coding part, take snapshots of your creations or make a GIF if you have made any kind of animation✨✨. 
-      
-        Add the snapshot of webpage in the **DESCRIPTION** section  in the same manner displayed in below image at the time of creating **Commit**.
-        
-        ![image](https://user-images.githubusercontent.com/58077762/94146033-ffe27b80-fe90-11ea-9d44-420964625940.png)
+4.  Clone the project.
 
-  
-  - **Now it's time to save the work**
-      
-      - Stage the changes you have made by firing the below command
-        > git add -A
-      - Commit the changes 
-        > git commit -m "Description of changes/your work"
-      - Push the changes to your forked repo
-        > git push origin master
-  
-  - **Let's finish this**
-  
-      - Go to your forked repo on GitHub website and refresh the page, you'll see something like the below image
-        ![pr1](https://user-images.githubusercontent.com/58077762/93778051-172c2980-fc43-11ea-97bb-410e1689df4d.png)
-        
-      - Click on pull-request and you will be redirected to another page where you will see something like below image
-        ![pr2](https://user-images.githubusercontent.com/58077762/93778056-185d5680-fc43-11ea-8477-a2b6773266e2.png)
-        
-      - After that you have to write your GitHub username as the title of your pull-request and describe your work if you want and that's it!!
-        Create a pull-request by clicking the button
-        
-        Mark the pull request as **Ready for Review**
-        
-        Also add the below 2 lines in the description. It is compulsory for sucessful submission.
-        
-          - [X] I have read the Code Of Conduct.
-        
-          - [X] I have followed all the steps of submission properly.
-        
-        ![pr3](https://user-images.githubusercontent.com/58077762/93779010-1e076c00-fc44-11ea-86f0-7a6d74380624.png)
+    ```shell
+    git clone https://github.com/clubgamma/spotify-web-clone
+    ```
+
+    [Help Guide to Clone a Repository](https://help.github.com/en/articles/cloning-a-repository)
+
+5.  Create a branch specific to the issue you are working on.
+
+    ```shell
+    git checkout -b branch-name
+    ```
+
+6.  Open up the project in your favorite text editor.
+
+    Select the file you want to contribute to, and make your changes.
+
+    If you are making changes to the `README.md` file, you would need to have
+    Markdown knowledge. Visit
+    [here to read about GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
+    and
+    [here to practice](http://www.markdowntutorial.com/).
+
+7.  Add your modified
+    files to git, [How to Add, Commit, Push, and Go](http://readwrite.com/2013/10/02/github-for-beginners-part-2/).
+
+    ```shell
+    git add path/to/filename.ext
+    ```
+
+    You can also add all unstaged files using:
+
+    ```shell
+    git add .
+    ```
+
+    **Note:** using a `git add .` will automatically add all files. You can do a
+    `git status` to see your changes, but do it **before** `git add`.
+
+8.  Commit your changes using a descriptive commit message.
+
+    ```shell
+    git commit -m "Brief Description of Commit"
+    ```
+
+9.  Push your commits to your GitHub Fork:
+
+    ```shell
+    git push -u origin branch-name
+    ```
+
+10. Submit a pull request.
+
+### Submitting a Pull Request
+
+[What is a Pull Request?](https://yangsu.github.io/pull-request-tutorial/)
+
+- Create a pull-request by clicking the button
+- Mark the pull request as **Ready for Review (If you forget this step then your pull request won't be counted)** if you are working in draft pull request
+
+![image](https://user-images.githubusercontent.com/58077762/94462632-72c55c80-01d9-11eb-8e59-6ed8cce1f96a.png)
+
+- Also add the below 2 lines in the description. It is compulsory for sucessful submission.
+
+  - [x] I have read the Code Of Conduct.
+
+  - [x] I have followed all the steps of submission properly.
+
+  ![image](https://user-images.githubusercontent.com/58077762/94461826-43fab680-01d8-11eb-96cd-80b2d69e13be.png)
 
 **Woohoo!! Congratulations on making your open source contribution🎉🎉**
 **Wait for some time to get your PR merged by our team**
