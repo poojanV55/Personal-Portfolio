@@ -9,7 +9,6 @@ Read the [Code of Conduct](https://github.com/clubgamma/code-of-conduct) before 
 4. Proper commenting must be done of each line, function or any component to be made.
 5. Naming of any component, variable or function must be done properly .
 
-
 ### Getting Started
 
 1.  If you are new to Git and GitHub, it is advisable that you go through
@@ -91,7 +90,8 @@ Read the [Code of Conduct](https://github.com/clubgamma/code-of-conduct) before 
 
   - [x] I have followed all the steps of submission properly.
 
-  ![image](https://user-images.githubusercontent.com/58077762/94461826-43fab680-01d8-11eb-96cd-80b2d69e13be.png)
+  ![pullrequest ](https://user-images.githubusercontent.com/63559515/134959604-25166552-2137-425f-812c-6ca46d0e3daf.jpg)
+
 
 **Woohoo!! Congratulations on making your open source contribution🎉🎉**
 **Wait for some time to get your PR merged by our team**
